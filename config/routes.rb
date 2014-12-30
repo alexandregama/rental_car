@@ -1,4 +1,7 @@
 RentalCar::Application.routes.draw do
+  resources :cars
+
+
   get "site/about"
 
   # The priority is based upon order of creation:

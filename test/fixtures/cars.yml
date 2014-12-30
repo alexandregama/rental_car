@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  brand: MyString
+  description: MyText
+  year: 1
+
+two:
+  brand: MyString
+  description: MyText
+  year: 1
