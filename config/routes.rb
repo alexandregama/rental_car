@@ -1,6 +1,8 @@
 RentalCar::Application.routes.draw do
-  resources :cars
 
+  root to: "cars#index"
+
+  resources :cars
 
   get "site/about"
 
